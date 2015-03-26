@@ -1,0 +1,55 @@
+
+* {
+    padding: 5px;
+}
+h1 {
+    background-color: white;
+}
+
+h2 {
+    background-color: white;
+}
+
+p {
+    color: yellow;
+    
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+    background: gray;
+}
+
+nav li {
+    display:inline;
+    padding: 5px 0px 5px 30px;
+    background: pink;
+    color: yellow;
+}
+
+.wrapper {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.education {
+    color: red;
+    background-color: purple;
+}
+
+.experience {
+    background-color: gray;
+}
+
+.contact {
+    background-color: pink;
+}   
+
+#github {
+    color: green;
+}
