@@ -10,14 +10,14 @@ header {
     padding: 150px 0px 150px 0px;
     background-position: 60% 50%;
     background-repeat: no-repeat;
-    margin:0;
+    margin-bottom: 50px;
     
 }
 
 header h1 {
     letter-spacing: 5px;
     text-align: center;
-    background-color: #eeeeee;
+    background-color: #E3EFF0;
     padding: 10px;
     margin: 0;
     color: black;
@@ -40,16 +40,16 @@ p {
 nav ul {
     background: white;
     color: black;
-    text-align: left;
+    text-align: center;
     margin: 0px;
-    padding: 0px 5px 0px 5px;
+    padding: 10px 5px 10px 5px;
 }
 
 nav li {
     display:inline;
     background: white;
     color: black;
-    text-align: left;
+    text-align: center;
  
 }
 
@@ -60,31 +60,11 @@ a {
     text-align: left;
 }
 
-
-.education {
-    color: red;
-    padding-top: 20px;
-    
+.maincontent {
+    background: #E3EFF0;
+    padding: 40px;
 }
 
-.experience {
-    background-color: gray;
-}
-
-.contact {
-    background: black;
-    
-}
-
-.contact h2 {
-    background: black;
-    color: white;
-    padding: 0px;
-}
-.contact p {
-    background: black;
-    color: white
-}   
 
 
 #github {
