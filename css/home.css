@@ -1,54 +1,83 @@
 
 body {
-   padding: 20px; 
+   padding: -2px; 
    background: white;
+   font-family: 'Oswald', Gill Sans, sans-serif;
+   letter-spacing: 1px;
 }
+
+main {
+    background: rgb(255, 245, 230);
+    padding-bottom: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    margin: 0px;
+   
+  
+    
+}
+
+main h2 {
+    background-color: white;
+    padding-top: 10px
+    padding-bottom: 10px;
+    border-bottom-right-radius: 50px;
+    margin: 0px;
+    color: black;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}    
 
 header {
     background-color: black;
-    background-image: url("https://download.unsplash.com/photo-1421757295538-9c80958e75b0");
-    padding: 150px 0px 150px 0px;
-    background-position: 60% 50%;
+    background-image: url("https://download.unsplash.com/3/doctype-hi-res.jpg");
+    width: 1280px;
+    height: 400px;
+    background-size: 1280px;
+    opacity: 0.90;
+    background-position: 20% 3%;
     background-repeat: no-repeat;
-    margin-bottom: 50px;
-    
-}
-
-header h1 {
-    letter-spacing: 5px;
+    margin-bottom: 30px;
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-transform: uppercase;
     text-align: center;
-    background-color: #E3EFF0;
-    padding: 10px;
-    margin: 0;
-    color: black;
-}
-
-h2 {
-    background-color: white;
-    letter-spacing: 1px;
-    color: black;
-    padding: 10px;
-    margin:0;
     
 }
+ header h1 {
+     padding-top: 145px;
+     text-align: center;
+ }
 
 p {
     color: black;
+    padding-left: 20px;
     
 }
 
+
 nav ul {
-    background: white;
-    color: black;
+    color: white;
     text-align: center;
-    margin: 0px;
+    margin-bottom: 5px;
     padding: 10px 5px 10px 5px;
+    background: rgb(48, 61, 68);
+    
+   
 }
+
 
 nav li {
     display:inline;
-    background: white;
-    color: black;
+    background: rgb(48, 61, 68);
+    color: white;
     text-align: center;
  
 }
@@ -60,12 +89,11 @@ a {
     text-align: left;
 }
 
-.maincontent {
-    background: #E3EFF0;
-    padding: 40px;
+footer {
+    background: rgb(48, 61, 68);
+    margin-top: 10px;
+    padding: 30px;
 }
-
-
 
 #github {
     color: black;
