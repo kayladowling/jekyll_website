@@ -6,9 +6,17 @@ body {
    letter-spacing: 1px;
 }
 
-img {
-    float: left;
-}
+h2 {
+    background-color: white;
+    margin: 0px;
+    color: black;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+} 
 
 header {
     background-color: black;
@@ -46,25 +54,11 @@ header h2 {
 main {
     background: rgb(255, 245, 230);
     padding-bottom: 40px;
-    padding-right: 40px;
     padding-top: 40px;
     margin: 0px;
 }
 
-main h2 {
-    background-color: white;
-    margin: 0px;
-    color: black;
-    font-family: Arial;
-    font-size: 16px;
-    font-weight: bold;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-    text-align: center;
-}    
-
-
-
+ 
 p {
     color: black;
     padding-left: 20px;
