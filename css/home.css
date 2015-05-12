@@ -1,9 +1,10 @@
 
 body {
-   padding: 10px 150px 100px; 
-   background: white;
-   font-family: 'Oswald', Gill Sans, sans-serif;
-   letter-spacing: 1px;
+	margin: 0;
+	padding: 10px 150px 100px; 
+	background: white;
+	font-family: 'Oswald', Gill Sans, sans-serif;
+	letter-spacing: 1px;
 }
 
 h2 {
@@ -22,7 +23,7 @@ header {
     background-color: black;
     background-image: url("https://download.unsplash.com/3/doctype-hi-res.jpg");
     width: 100%;
-    height: 100%;
+    height: 200px;
     background-size: 1250px;
     opacity: 0.90;
     background-position: 20% 3%;
@@ -36,33 +37,44 @@ header {
     text-transform: uppercase;
     text-align: center;
 }
- header h1 {
-     padding-top: 100px;
-     text-align: center;
- }
- 
-header h2 {
-    font-family: 'Oswald', Gill Sans, sans-serif;
-   letter-spacing: 1px;     
-   padding-bottom: 200px;
-   font-style: italic;
-   text-transform: capitalize;
-   font-weight: normal;
-   
+
+header h1 {
+	padding-top: 100px;
+	text-align: center;
+	font-family: 'Oswald', Gill Sans, sans-serif;
+	letter-spacing: 1px;     
+	text-transform: capitalize;
+	font-weight: normal;
+}
+
+article {
+  column-count: 2;
+  column-width: 200px;
+  float: none;
+}
+
+.kayla {
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin: 20px;
+    
+    
 }
 
 main {
-    background: rgb(255, 245, 230);
+    
     padding-bottom: 40px;
     padding-top: 40px;
     margin: 0px;
 }
 
  
-p {
+main p {
+    background: rgb(255, 245, 230);
     color: black;
-    padding-left: 20px;
-    
+    padding: 16px;
+	margin: 0px;
 }
 
 
@@ -96,9 +108,22 @@ footer {
     background: rgb(48, 61, 68);
     margin-top: 10px;
     padding: 30px;
+    text-align: left;
+    color: white;
+}
+
+footer p {
+	margin: 0;
+	padding: 0;
 }
 
 #github {
     color: black;
     text-align: left;
+}
+
+.main-image {
+	display: block;
+	margin: 30px auto;
+	height: 350px;
 }

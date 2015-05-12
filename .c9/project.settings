@@ -1,9 +1,9 @@
 {
     "ace": {
-        "@guessTabSize": "true",
+        "@guessTabSize": false,
         "@newLineMode": "unix",
-        "@tabSize": "4",
-        "@useSoftTabs": "true"
+        "@tabSize": 4,
+        "@useSoftTabs": false
     },
     "build": {
         "@builder": "auto",
