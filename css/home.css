@@ -1,7 +1,8 @@
 
 body {
-	margin: 0;
-	padding: 10px 150px 100px; 
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
 	background: white;
 	font-family: 'Oswald', Gill Sans, sans-serif;
 	letter-spacing: 1px;
@@ -20,6 +21,7 @@ h2 {
 } 
 
 header {
+	position: relative;
     background-color: black;
     background-image: url("https://download.unsplash.com/3/doctype-hi-res.jpg");
     width: 100%;
@@ -47,19 +49,34 @@ header h1 {
 	font-weight: normal;
 }
 
+header a {
+	color: black;
+	text-decoration: none;
+}
+
+header h2{
+	background-color:transparent;
+}
+
+header .social {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+header .social a {
+	display: inline-block;
+	vertical-align: top;
+}
+
+header .social img {
+	max-height: 48px;
+}
+
 article {
   column-count: 2;
   column-width: 200px;
   float: none;
-}
-
-.kayla {
-    float: left;
-    width: 30%;
-    height: 30%;
-    margin: 20px;
-    
-    
 }
 
 main {
@@ -69,14 +86,12 @@ main {
     margin: 0px;
 }
 
- 
 main p {
     background: rgb(255, 245, 230);
     color: black;
     padding: 16px;
 	margin: 0px;
 }
-
 
 nav ul {
     color: white;
@@ -97,7 +112,7 @@ nav li {
  
 }
 
-a {
+nav a {
     text-decoration: none;
     color: black;
     background: white;
@@ -126,4 +141,11 @@ footer p {
 	display: block;
 	margin: 30px auto;
 	height: 350px;
+}
+
+@media (max-width: 640px) {
+	body {
+		margin: 0px;
+		width: 100%;
+	}
 }
