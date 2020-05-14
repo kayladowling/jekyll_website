@@ -1,5 +1,1 @@
-# kayladowling.github.io
-
-info for website
-
-change - test for git
+Made a basic webpage using jekyll
